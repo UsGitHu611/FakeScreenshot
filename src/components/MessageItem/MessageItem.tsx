@@ -7,7 +7,7 @@ interface IMessage {
 const MessageItem : FC<IMessage> = ({message}) => {
     return ( 
         <>
-        hello
+            
         </>
     )
 }

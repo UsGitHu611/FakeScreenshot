@@ -1,6 +1,7 @@
 import React, { FC } from "react";
-import style from './MessageContainer.module.css';
-import MessageItem from "../MessageItem/MessageItem";
+import {Icon24PhoneAddOutline,} from '@vkontakte/icons';
+import styles from './MessageContainer.module.css';
+
 
 interface IContainer<T> {
     item : T[]
@@ -8,10 +9,12 @@ interface IContainer<T> {
 }
 
 const MessageContainer : FC<IContainer> = ({item}) => {
-    return ( 
-        <div>
-            <MessageItem/>
+    return (
+        <>
+        <div className={styles.container}>
+            
         </div>
+        </>
     )
 }
  
